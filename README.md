@@ -17,7 +17,7 @@ find_package(catkin REQUIRED COMPONENTS
 )
 ```
 
-And use include the libraries as follows:
+And include the libraries as follows:
 For example in "my_package/src/my_cpp.cpp"
 ```cpp
 #include <rover_utils/math_helpers.h>
