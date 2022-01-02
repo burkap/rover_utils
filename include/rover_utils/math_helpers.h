@@ -20,7 +20,7 @@ namespace rover
  * @param upper The upper value of given range.
  * @return The result between the upper and lower values.
  */
-  double clamp(double value, double lower, double upper)
+  inline double clamp(double value, double lower, double upper)
   {
     return std::max(lower, std::min(value, upper));
   }
