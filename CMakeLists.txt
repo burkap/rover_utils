@@ -11,6 +11,6 @@ include_directories(
     ${catkin_INCLUDE_DIRS}
 )
 
-install(DIRECTORY include/
-  DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
+install(DIRECTORY include/rover_utils
+  DESTINATION include/
 )
